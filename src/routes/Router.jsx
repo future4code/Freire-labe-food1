@@ -12,7 +12,6 @@ import { SearchPage } from '../pages/SearchPage/SearchPage';
 import RestaurantPage from '../pages/RestaurantPage/RestaurantPage';
 
 const Router = () => {
-
   return (
     <BrowserRouter>
       <Routes>
@@ -27,7 +26,7 @@ const Router = () => {
 
         <Route path="/login" element={<LoginPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-        <Route path="./signup" element={<SignUpPage />} />
+        <Route path="/signup" element={<SignUpPage />} />
         <Route path="/shoppingcart" element={<ShoppingCartPage />} />
         <Route path="/restaurant/:id" element={<RestaurantPage />} />
         <Route path="/404" element={<div>Error</div>} />
@@ -36,6 +35,5 @@ const Router = () => {
     </BrowserRouter>
   );
 };
-
 
 export default Router;

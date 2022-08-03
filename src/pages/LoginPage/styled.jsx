@@ -14,4 +14,12 @@ export const Form = styled.form`
   flex-direction: column;
   width: 80vw;
   max-width: 400px;
-`
+`;
+
+export const ButtonSignup = styled.button`
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  padding: 12px 20px;
+  margin-top: 8px;
+`;
